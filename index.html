@@ -3,17 +3,21 @@
 
 <head>
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link href="/css/styles.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
   <meta charset="utf-8">
-  <title></title>
+  <title>Ping Pong</title>
 </head>
 
 <body>
   <!-- header -->
 
-  <div class="container-fluid">
+  <div class="container-fluid" style="">
 
     <h1>Ping Pong</h1>
+    <div class="images">
+      <img src="images/images.jpeg" alt="image of players playing ping ponp" width="40%" height="10%">
+      <img src="images/pong.jpg" alt="ping pong paddle" width="40%" height="15%">
+    </div>
 
   </div>
 
@@ -22,33 +26,44 @@
 
   <!-- start of sec one -->
 
-  <div class="container">
+  <div class="box" style="">
     <div class="row">
+      <div class="col-md-8" style="">
+        <h2>Let's Play</h2>
 
-      <h2>Let's Play</h2>
+        <h3>Rules</h3>
 
-      <h3>Rules</h3>
+        <p>Ping pong will count to your number from 1 with the following expectations:</p>
 
-      <p>Ping pong will count to your number from 1 with the following expectations:</p>
+        <ol>
+          <li>numbers divisible by 3 become ping</li>
+          <li>numbers divisble by 5 become pong</li>
+          <li>numbers divisible by 3 and 5 become pingpong</li>
+        </ol>
 
-      <ul>
-        <li>numbers divisible by 3 become ping</li>
-        <li>numbers divisble by 5 become pong</li>
-        <li>numbers divisible by 3 and 5 become pingpong</li>
-      </ul>
+        <form id="formOne">
 
-      <form>
+          <label for="">Enter number here!</label>
+          <input type="text" id="anyNumber"></input>
+          <button class="btn btn-primary" name="button" id="buttonForm">Ping Pong</button>
 
-        <input type="text">Enter your number here!</input>
+        </form>
+        <ul class="outPut">
 
-      </form>
+        </ul>
+      </div>
 
 
-      <div class="wells" class="col-md-4">
+
+      <div class="col-md-4" id="ping" style="background-color: #080F09;color: #FFFFFF; float: left; position: abolute; top: 10px; border: solid 1px black; min-width: 200px; word-wrap: break-word">
 
         <h2>About Pingpong</h2>
-        <p>created by</p>
+        <h3>created by</h3>
         <p>Grace Marion</p>
+        <h3>GITHUB Username/url</h3>
+        <p>Gracekashe/https://github.com/gracekashe/ping-pong.git</p>
+        <h3>Level Two Test for</h3>
+        <p>javascript</p>
 
       </div>
 
