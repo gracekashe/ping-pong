@@ -4,7 +4,7 @@
 }
 
 .box {
-  background-color: #35E5DD;
+  background-color: #a9a9a9;
   position: relative;
   padding: 10px;
   margin-top: 50px;
@@ -20,19 +20,42 @@
   font-
 }
 
-.images {
-  overflow: auto;
+#images1 {
+  background-image: url("../images/pin.jpg");
+  background-size: cover;
+  display: inline-block;
+}
+
+#images2 {
+  background-image: url("../images/play.jpg");
+  background-size: cover;
+}
+
+#images3 {
+  background-image: url("../images/pong.jpg");
+  width: 40%;
+  height: 15%;
+  background-size: cover;
 }
 
 body {
   background-image: url('../images/sports.jpg');
   background-position: center;
   background-attachment: fixed;
-  font-family: Bleeding-Cowboys;
+  font: cows;
   padding: 30px;
 }
 
-@@font-face {
-  src: url('Bleeding_Cowboys.tff');
-  font-family: Bleeding-Cowboys;
+@font-face {
+  src: url('../fonts/GreatVibes-Regular.ttf') format('truetype');
+  font-family: cows;
+}
+
+h1 {
+  font: 60px "cows";
+}
+
+h2 {
+  font: 40px "cows";
+  color: #FFFFFF;
 }
