@@ -4,15 +4,15 @@ var pPong = [];
 function pingpong(num) {
   for (var x = 1; x <= num; x++) {
 
-    if ((x % 3 === 0) && (x % 5 === 0)) {
+    if ((x % 3 == 0) && (x % 5 == 0)) {
       pPong.push('pingpong');
       var y = true
       // console.log(y);
     } else if (x % 3 == 0) {
-      pPong.push('tesh');
+      pPong.push('ping');
 
     } else if (x % 5 == 0) {
-      pPong.push('kashii');
+      pPong.push('pong');
 
     } else {
       pPong.push(x);
