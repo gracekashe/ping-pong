@@ -6,7 +6,7 @@ function pingpong(num) {
 
     if ((x % 3 == 0) && (x % 5 == 0)) {
       pPong.push('pingpong');
-      var y = true
+      // var y = true
       // console.log(y);
     } else if (x % 3 == 0) {
       pPong.push('ping');
