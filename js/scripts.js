@@ -32,6 +32,7 @@ $(document).ready(function() {
   $("#formOne").submit(function(event) {
     event.preventDefault();
     var result = parseInt($("#anyNumber").val());
+    // $(".outPut").remove();
     pingpong(result);
     console.log(pPong);
 
